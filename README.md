@@ -6,6 +6,14 @@ This project is inspired by [The Colors Of Motion](https://thecolorsofmotion.com
 
 [Github](https://www.github.com/Lusori0/colorsofmotion)
 
+# Install
+
+## Install using pip
+
+```
+pip install colorsofmotion
+```
+
 # Options
 
 ## Required:

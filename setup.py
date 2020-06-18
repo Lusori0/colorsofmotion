@@ -7,7 +7,7 @@ long_description = 'Commandline script to convert any video to a image with a se
 
 setup( 
 		name ='colorsofmotion', 
-		version ='1.0.0', 
+		version ='1.0.3', 
 		author ='Lusorio', 
 		author_email ='manuel.buenstorf@gmail.com', 
 		url ='https://github.com/Lusori0/colorsofmotion', 
@@ -15,7 +15,7 @@ setup(
 		long_description = long_description, 
 		long_description_content_type ="text/markdown", 
 		license ='MIT', 
-		packages = find_packages(), 
+		packages = find_packages(),
 		entry_points ={ 
 			'console_scripts': [ 
 				'colorsofmotion = colorsofmotion.__init__:main'
@@ -27,6 +27,6 @@ setup(
 			"Operating System :: OS Independent", 
 		), 
 		keywords ='colorsofmotion video poster', 
-		install_requires = requirements, 
+		install_requires=['moviepy>=1.0.2', 'Pillow>=7.1.2', 'numpy>=1.18.5'],
 		zip_safe = False
 ) 
